@@ -22,6 +22,7 @@ body {
   text-decoration-line:overline;
   line-height: 100pt;
   text-decoration: none;
+  position: relative;
 }
 
 .grid{
