@@ -1,0 +1,14 @@
+body {
+  font-family: arial black;
+  font-size: 12px;
+  line-height: 1.5;
+  max-width: 1200px;
+  color: black;
+  background-color: rgb(180, 180, 180);
+}
+
+img{
+  max-width: 50%;
+  align-items: center;
+
+}
