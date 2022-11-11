@@ -1,0 +1,164 @@
+html{
+  cursor: url('souris.png'), auto;
+}
+
+a:hover, button:hover{
+  cursor: url('souris.png'), auto;
+}
+
+body {
+  font-family: arial black;
+  font-size: 18px;
+  line-height: 1,5;
+  margin: 0;
+  margin-left: 10px;
+  color: black;
+  background-color: rgb(180, 180, 180);
+}
+
+.hover-title{
+  font-family: arial black;
+  color: black;
+  text-decoration-line:overline;
+  line-height: 100pt;
+  text-decoration: none;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 1200px;
+}
+
+.header {
+  background: rgb(180, 180, 180);
+  min-height: 100vh;
+  position: sticky;
+  border-right: 1px solid black;
+  padding:25px;
+  max-width: 360px;
+}
+.header-title {
+  color: black;
+  margin: 0;
+  font-size: 18px;
+}
+.second-titre {
+  color: black;
+  margin: 0;
+  font-size: 16px;
+}
+.header-desc {
+  color: black;
+  font-size: 20px;
+}
+
+.article{
+  padding:8px;
+  padding: top 70px;
+  position: absolute;
+  top: 0px; left: 30px;
+  text-decoration-line: underline 100;
+  margin-left: 400px;
+}
+
+/* 
+.hover-image {
+  display: none;
+}
+
+body:not(.mobile) .hover-title:hover + .hover-image {
+  display: flex;
+  pointer-events: none;
+}
+
+.hover-image {
+  position: relative;
+  top: 10%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  pointer-events: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 10vw;
+  height: 10vh;
+}
+
+.hover-image img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  margin-bottom: 0;
+} */
+
+
+.fx{
+  display: grid;
+  height:60px;
+}
+
+.fx>*{
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+}
+
+.fx img{
+  opacity: 0;
+  max-height: 40px;
+  margin:-20px 20px;
+  }
+
+.fx:hover img{
+  opacity: 1;
+}
+
+div .article{
+  line-height: 100pt;
+}
+
+.mail{
+  font-family: 'Playfair Display SC', serif;
+  text-decoration-line: underline;
+  line-height: 6pt;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.téléphone{
+  font-family: 'Playfair Display SC', serif;
+  text-decoration-line: underline;
+  line-height:5pt;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.instagram{
+  font-family: 'Playfair Display SC', serif;
+  color: black;
+  text-decoration-line: underline;
+  line-height: 5pt;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.ressources{
+  font-family: 'Playfair Display SC', serif;
+  color: black;
+  text-decoration-line: underline;
+  line-height: 7pt;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.jaune{
+  color: yellow;
+  font-size:x-small;
+}
+
