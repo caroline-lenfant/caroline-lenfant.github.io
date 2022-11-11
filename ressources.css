@@ -1,0 +1,16 @@
+body {
+  font-family: arial black;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 1200px;
+  color: black;
+  background-color: rgb(180, 180, 180);
+      }
+
+.kitgraphique {
+  font-family: arial black;
+  color: black;
+  text-decoration-line: underline;
+  line-height: 7pt
+}
